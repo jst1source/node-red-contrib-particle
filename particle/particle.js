@@ -32,7 +32,7 @@ module.exports = function(RED) {
     this.port = n.port;
     this.name = n.name;
 
-		if (this.credentials && this.credentials.hasOwnProperty("accesstoken") ) {
+		if (this.credentials) {
 			this.accesstoken = this.credentials.accesstoken;
 		}
   }
